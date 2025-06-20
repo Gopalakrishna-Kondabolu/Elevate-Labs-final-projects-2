@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+header button{
+    border: 1px solid;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    background: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ header h1{
+    margin-right: 20%;
+    padding-bottom: 2px;
+}
+#title{
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.start{
+    border: 1px solid rgb(255, 0, 149);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 149);
+    color: white;
+    padding: 10px;
+}
